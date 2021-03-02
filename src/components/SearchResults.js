@@ -6,7 +6,7 @@ import Drawer from 'antd/lib/drawer'
 import 'antd/lib/table/style/css'
 import 'antd/lib/drawer/style/css'
 
-const SearchResults = ({ results }) => {
+const SearchResults = ({ results, setRecommendations, recommendations }) => {
     const [selected, setSelected] = useState(null)
     const [selectedMedia, setSelectedMedia] = useState("")
     const [visibility, setVisibility] = useState(false)
@@ -85,7 +85,7 @@ const SearchResults = ({ results }) => {
           onClose={onClose}
           visible={visibility}
         >
-          {selectedMedia && <SelectedMedia selectedMedia={selectedMedia} /> }
+          {selectedMedia && <SelectedMedia selectedMedia={selectedMedia} setRecommendations={setRecommendations} recommendations={recommendations} /> }
         </Drawer>
       </>
     )

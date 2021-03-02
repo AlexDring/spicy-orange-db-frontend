@@ -6,11 +6,11 @@ import 'antd/lib/row/style/css'
 import 'antd/lib/descriptions/style/css'
 import 'antd/lib/row/style/css'
 
-const { Text, Title } = Typography;
+const { Title } = Typography;
 
 const SelectedMedia = (props) => {
   console.log(props);
-  const { selectedMedia } = props
+  const { selectedMedia, setRecommendations, recommendations } = props
 
   const addRecommendation = (e) => {
     e.preventDefault()
@@ -23,10 +23,8 @@ const SelectedMedia = (props) => {
         user: null
       }]
     }
-    axios.post('http://localhost:3001/recommendations',recommendedMediaObject)
-    .then(response => {
-      console.log(response);
-    })
+    axios.post('http://localhost:3001/recommendations', recommendedMediaObject)
+    .then(response => setRecommendations(recommendations.concat(response.data)))
   }
 
     return(

@@ -1,45 +1,34 @@
 {
   "recommendations": [
     {
-      "Title": "Titanic",
-      "Year": "1997",
-      "Rated": "PG-13",
-      "Released": "19 Dec 1997",
-      "Runtime": "194 min",
-      "Genre": "Drama, Romance",
-      "Director": "James Cameron",
-      "Writer": "James Cameron",
-      "Actors": "Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates",
-      "Plot": "84 years later, a 100 year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning.",
-      "Language": "English, Swedish, Italian, French",
-      "Country": "USA, Mexico",
-      "Awards": "Won 11 Oscars. Another 112 wins & 83 nominations.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "Title": "H2O: Just Add Water",
+      "Year": "2006–2010",
+      "Rated": "TV-PG",
+      "Released": "07 Jul 2006",
+      "Runtime": "23 min",
+      "Genre": "Drama, Family, Fantasy",
+      "Director": "N/A",
+      "Writer": "Jonathan M. Shiff",
+      "Actors": "Cariba Heine, Phoebe Tonkin, Angus McLaren, Burgess Abernethy",
+      "Plot": "Three ordinary women discover an Island on Mako and a moon pool that turns them into extraordinary mermaids with special powers over water on the night of a full moon. They must never look in the moon's eye or there will be side effects for each of them.",
+      "Language": "English",
+      "Country": "Australia",
+      "Awards": "2 wins & 6 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjUwZWFmMmUtM2U1Zi00NmQ2LThkOTYtNDAyODMyYWE4NDUxXkEyXkFqcGdeQXVyMjM2Mzk0MDk@._V1_SX300.jpg",
       "Ratings": [
         {
           "Source": "Internet Movie Database",
-          "Value": "7.8/10"
-        },
-        {
-          "Source": "Rotten Tomatoes",
-          "Value": "89%"
-        },
-        {
-          "Source": "Metacritic",
-          "Value": "75/100"
+          "Value": "7.2/10"
         }
       ],
-      "Metascore": "75",
-      "imdbRating": "7.8",
-      "imdbVotes": "1,048,704",
-      "imdbID": "tt0120338",
-      "Type": "movie",
-      "DVD": "01 Jun 2014",
-      "BoxOffice": "$659,363,944",
-      "Production": "20th Century Fox, Lightstorm Entertainment, Paramount Pictures",
-      "Website": "N/A",
+      "Metascore": "N/A",
+      "imdbRating": "7.2",
+      "imdbVotes": "12,486",
+      "imdbID": "tt0491603",
+      "Type": "series",
+      "totalSeasons": "3",
       "Response": "True",
-      "dateAdded": "2021-03-01T17:11:21.488Z",
+      "dateAdded": "2021-03-02T14:19:38.104Z",
       "rottenGas": [
         {
           "score": 500,
@@ -47,18 +36,629 @@
         },
         {
           "user": null,
-          "score": 246
+          "score": 622
         },
         {
           "user": null,
-          "score": 722
+          "score": 833
+        }
+      ],
+      "id": 1
+    },
+    {
+      "Title": "Blood Work",
+      "Year": "2002",
+      "Rated": "R",
+      "Released": "09 Aug 2002",
+      "Runtime": "110 min",
+      "Genre": "Action, Crime, Drama, Mystery, Thriller",
+      "Director": "Clint Eastwood",
+      "Writer": "Michael Connelly (novel), Brian Helgeland (screenplay)",
+      "Actors": "Clint Eastwood, Jeff Daniels, Anjelica Huston, Wanda De Jesus",
+      "Plot": "Retired FBI profiler Terry McCaleb (Eastwood), who has recently had a heart transplant, is hired by Graciela Rivers (De Jesus), to investigate the death of her sister, Gloria, who happens to have given McCaleb his heart. On the case, he soon deduces that the killer, who staged the murder to look like a random robbery, may actually be a serial killer Terry was trailing for years in the FBI. Can the elderly and feeble McCaleb, who had intended to spend his retirement living on his boat in the Los Angeles harbor, and who can't drive, and has to nap regularly, muster up the endurance to find the killer?",
+      "Language": "English, Spanish",
+      "Country": "USA",
+      "Awards": "2 wins.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTIxMDMzMDk1NV5BMl5BanBnXkFtZTYwNzgxNDY3._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "52%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "64/100"
+        }
+      ],
+      "Metascore": "64",
+      "imdbRating": "6.4",
+      "imdbVotes": "42,176",
+      "imdbID": "tt0309377",
+      "Type": "movie",
+      "DVD": "01 Nov 2009",
+      "BoxOffice": "$26,235,081",
+      "Production": "Malpaso Company",
+      "Website": "N/A",
+      "Response": "True",
+      "dateAdded": "2021-03-02T14:22:35.886Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        }
+      ],
+      "id": 2
+    },
+    {
+      "Title": "Mindhunter",
+      "Year": "2017–2019",
+      "Rated": "TV-MA",
+      "Released": "13 Oct 2017",
+      "Runtime": "60 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "N/A",
+      "Writer": "Joe Penhall",
+      "Actors": "Jonathan Groff, Holt McCallany, Anna Torv, Sonny Valicenti",
+      "Plot": "Set in the late 1970s, two FBI agents are tasked with interviewing serial killers to solve open cases.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 2 Primetime Emmys. Another 4 wins & 28 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNWNmYzQ1ZWUtYTQ3ZS00Y2UwLTlkMDctZThlOTJkMGJiNzBiXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.6",
+      "imdbVotes": "216,673",
+      "imdbID": "tt5290382",
+      "Type": "series",
+      "totalSeasons": "2",
+      "Response": "True",
+      "dateAdded": "2021-03-02T14:52:51.361Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        },
+        {
+          "user": null,
+          "score": 639
+        },
+        {
+          "user": null,
+          "score": 311
+        },
+        {
+          "user": null,
+          "score": 846
+        },
+        {
+          "user": null,
+          "score": 759
+        },
+        {
+          "user": null,
+          "score": 357
+        },
+        {
+          "user": null,
+          "score": 891
+        },
+        {
+          "user": null,
+          "score": 1000
+        }
+      ],
+      "id": 3
+    },
+    {
+      "Title": "Twerk INC",
+      "Year": "2018",
+      "Rated": "N/A",
+      "Released": "14 Sep 2018",
+      "Runtime": "73 min",
+      "Genre": "N/A",
+      "Director": "Marlon Beroit",
+      "Writer": "N/A",
+      "Actors": "Alena Astakhova, Gal Bepole, Shane Sparks",
+      "Plot": "Twerking has become a common term among teens in America. But what these young women from Europe have done is beyond just a dance. Join me as I travel to Israel and Russia to uncover the ...",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjdhNDQ3MGYtMDBmMy00OGI0LWE2OTMtMzUyODk2MTQ0ZWZiXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt9052922",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "dateAdded": "2021-03-02T14:59:12.979Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        },
+        {
+          "user": null,
+          "score": 1000
+        }
+      ],
+      "id": 4
+    },
+    {
+      "Title": "13 Reasons Why",
+      "Year": "2017–2020",
+      "Rated": "TV-MA",
+      "Released": "31 Mar 2017",
+      "Runtime": "60 min",
+      "Genre": "Drama, Mystery, Thriller",
+      "Director": "N/A",
+      "Writer": "Brian Yorkey",
+      "Actors": "Dylan Minnette, Christian Navarro, Alisha Boe, Brandon Flynn",
+      "Plot": "Thirteen Reasons Why, based on the best-selling books by Jay Asher, follows teenager Clay Jensen (Dylan Minnette) as he returns home from school to find a mysterious box with his name on it lying on his porch. Inside he discovers a group of cassette tapes recorded by Hannah Baker (Katherine Langford) -his classmate and crush-who tragically committed suicide two weeks earlier. On tape, Hannah unfolds an emotional audio diary, detailing the thirteen reasons why she decided to end her life. Through Hannah and Clay's dual narratives, Thirteen Reasons Why weaves an intricate and heartrending story of confusion and desperation that will deeply affect viewers.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 1 Golden Globe. Another 4 wins & 14 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDYzZTRlNGEtZDc2Mi00ZGNjLTlmZDAtMmVjMDZkOThiODEwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.6",
+      "imdbVotes": "255,448",
+      "imdbID": "tt1837492",
+      "Type": "series",
+      "totalSeasons": "4",
+      "Response": "True",
+      "dateAdded": "2021-03-02T15:43:10.133Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        }
+      ],
+      "id": 5
+    },
+    {
+      "Title": "Working Girl",
+      "Year": "1988",
+      "Rated": "R",
+      "Released": "21 Dec 1988",
+      "Runtime": "113 min",
+      "Genre": "Comedy, Drama, Romance",
+      "Director": "Mike Nichols",
+      "Writer": "Kevin Wade",
+      "Actors": "Harrison Ford, Sigourney Weaver, Melanie Griffith, Alec Baldwin",
+      "Plot": "Tess McGill is a frustrated secretary, struggling to forge ahead in the world of big business in New York. She gets her chance when her boss breaks her leg on a skiing holiday. McGill takes advantage of her absence to push ahead with her career. She teams up with investment broker Jack Trainer to work on a big deal. The situation is complicated after the return of her boss.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Won 1 Oscar. Another 8 wins & 17 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTIwZGE5OWUtYzMxMi00Njk5LWI5NjAtMWYyMDljZGRjYWRlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "73/100"
+        }
+      ],
+      "Metascore": "73",
+      "imdbRating": "6.8",
+      "imdbVotes": "51,987",
+      "imdbID": "tt0096463",
+      "Type": "movie",
+      "DVD": "25 Nov 2015",
+      "BoxOffice": "$63,779,477",
+      "Production": "20th Century Fox",
+      "Website": "N/A",
+      "Response": "True",
+      "dateAdded": "2021-03-02T15:48:58.794Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        },
+        {
+          "user": null,
+          "score": 815
+        },
+        {
+          "user": null,
+          "score": 943
+        }
+      ],
+      "id": 6
+    },
+    {
+      "Title": "Why Him?",
+      "Year": "2016",
+      "Rated": "R",
+      "Released": "23 Dec 2016",
+      "Runtime": "111 min",
+      "Genre": "Comedy",
+      "Director": "John Hamburg",
+      "Writer": "John Hamburg (screenplay by), Ian Helfer (screenplay by), Jonah Hill (story by), John Hamburg (story by), Ian Helfer (story by)",
+      "Actors": "Zoey Deutch, James Franco, Tangie Ambrose, Cedric the Entertainer",
+      "Plot": "Over the holidays, Ned, an overprotective but loving dad and his family visit his daughter at Stanford, where he meets his biggest nightmare: her well-meaning but socially awkward Silicon Valley millionaire boyfriend, Laird. The rivalry develops,and Ned's panic level goes through the roof when he finds himself lost in this glamorous high-tech world and learns that Laird is about to pop the question.",
+      "Language": "English, Khmer",
+      "Country": "USA, Cambodia",
+      "Awards": "1 win.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDlkMDQ1NzUtNGE3OC00NmUwLWI0NjAtNDJmODUzY2NhOGIzL2ltYWdlXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.2/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "39%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "39/100"
+        }
+      ],
+      "Metascore": "39",
+      "imdbRating": "6.2",
+      "imdbVotes": "101,893",
+      "imdbID": "tt4501244",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$60,323,786",
+      "Production": "21 Laps Entertainment, TSG Entertainment, Red Hour Productions",
+      "Website": "N/A",
+      "Response": "True",
+      "dateAdded": "2021-03-02T15:51:42.526Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        },
+        {
+          "user": null,
+          "score": 804
+        },
+        {
+          "user": null,
+          "score": 187
+        },
+        {
+          "user": null,
+          "score": 0
+        },
+        {
+          "user": null,
+          "score": 0
+        },
+        {
+          "user": null,
+          "score": 0
+        }
+      ],
+      "id": 7
+    },
+    {
+      "Title": "Shoreditch Twat",
+      "Year": "2002",
+      "Rated": "N/A",
+      "Released": "01 Aug 2002",
+      "Runtime": "30 min",
+      "Genre": "Comedy",
+      "Director": "Otto Bathurst",
+      "Writer": "Simon Wilson, Ross Clarke",
+      "Actors": "Philip Brodie, Jim Field Smith, Vincent Franklin, Sharon Horgan",
+      "Plot": "N/A",
+      "Language": "N/A",
+      "Country": "N/A",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.2",
+      "imdbVotes": "11",
+      "imdbID": "tt0491149",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "dateAdded": "2021-03-02T15:56:32.479Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        }
+      ],
+      "id": 8
+    },
+    {
+      "Title": "The Nice Guys",
+      "Year": "2016",
+      "Rated": "R",
+      "Released": "20 May 2016",
+      "Runtime": "116 min",
+      "Genre": "Action, Comedy, Crime, Thriller",
+      "Director": "Shane Black",
+      "Writer": "Shane Black, Anthony Bagarozzi",
+      "Actors": "Russell Crowe, Ryan Gosling, Angourie Rice, Matt Bomer",
+      "Plot": "Set against the backdrop of 1977 Los Angeles, The Nice Guys opens when single father and licensed PI Holland March (Gosling) is hired to investigate the apparent suicide of famous porn star Misty Mountains. As the trail leads him to track down a girl named Amelia (Qualley), he encounters less licensed and less hands-off private eye Jackson Healey (Russell Crowe) and his brass knuckles, both hired by the young hippie. However, the situation takes a turn for the worse when Amelia vanishes and it becomes apparent that March wasn't the only party interested. As both men are forced to team up, they'll have to take on a world filled with eccentric goons, strippers dressed as mermaids and even a possible government conspiracy.",
+      "Language": "English, German",
+      "Country": "USA",
+      "Awards": "9 wins & 34 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODNlNmU4MGItMzQwZi00NGQyLWEyZWItYjFkNmI0NWI4NjBhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "70/100"
+        }
+      ],
+      "Metascore": "70",
+      "imdbRating": "7.4",
+      "imdbVotes": "282,479",
+      "imdbID": "tt3799694",
+      "Type": "movie",
+      "DVD": "09 Aug 2016",
+      "BoxOffice": "$36,261,763",
+      "Production": "Silver Pictures, RatPac-Dune Entertainment, Waypoint Entertainment",
+      "Website": "N/A",
+      "Response": "True",
+      "dateAdded": "2021-03-02T16:08:49.683Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        },
+        {
+          "user": null,
+          "score": 783
+        },
+        {
+          "user": null,
+          "score": 791
+        },
+        {
+          "user": null,
+          "score": 641
+        },
+        {
+          "user": null,
+          "score": 720
+        },
+        {
+          "user": null,
+          "score": 730
+        },
+        {
+          "user": null,
+          "score": 650
+        },
+        {
+          "user": null,
+          "score": 859
+        },
+        {
+          "user": null,
+          "score": 1000
         },
         {
           "user": null,
           "score": 933
+        },
+        {
+          "user": null,
+          "score": 711
         }
       ],
-      "id": 1
+      "id": 9
+    },
+    {
+      "Title": "Johnny Test",
+      "Year": "2005–2014",
+      "Rated": "TV-Y7",
+      "Released": "01 Jan 2005",
+      "Runtime": "30 min",
+      "Genre": "Animation, Action, Adventure, Comedy, Drama, Family, Sci-Fi",
+      "Director": "N/A",
+      "Writer": "Scott Fellows, Chris Savino",
+      "Actors": "James Arnold Taylor, Maryke Hendrikse, Lee Tockar, Ashleigh Ball",
+      "Plot": "The adventures of average suburban boy Johnny Test, who wittingly plays test subject for his genius twin sisters' various experiments, reluctantly fighting evil villains in the process.",
+      "Language": "English",
+      "Country": "USA, Canada",
+      "Awards": "1 win & 5 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzc3OGZjYWQtZGFkMy00YTNlLWE5NDYtMTRkNTNjODc2MjllXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "5.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "46%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "5.0",
+      "imdbVotes": "6,772",
+      "imdbID": "tt0454349",
+      "Type": "series",
+      "totalSeasons": "6",
+      "Response": "True",
+      "dateAdded": "2021-03-02T16:28:03.423Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        },
+        {
+          "user": null,
+          "score": 796
+        },
+        {
+          "user": null,
+          "score": 699
+        },
+        {
+          "user": null,
+          "score": 1000
+        }
+      ],
+      "id": 10
+    },
+    {
+      "Title": "Missy Elliott: Work It",
+      "Year": "2002",
+      "Rated": "N/A",
+      "Released": "01 Oct 2002",
+      "Runtime": "4 min",
+      "Genre": "Short, Music, Musical",
+      "Director": "Missy Elliott, Dave Meyers",
+      "Writer": "N/A",
+      "Actors": "Missy Elliott",
+      "Plot": "N/A",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "3 wins & 9 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzEwYzhjYTktM2ZkYy00ZDAzLWJkZWQtOGMzNzIzYTA1MDkzXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.1",
+      "imdbVotes": "68",
+      "imdbID": "tt6668076",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "dateAdded": "2021-03-02T16:30:45.209Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        }
+      ],
+      "id": 11
+    },
+    {
+      "Title": "Workin' Moms",
+      "Year": "2017–",
+      "Rated": "TV-MA",
+      "Released": "10 Jan 2017",
+      "Runtime": "30 min",
+      "Genre": "Comedy",
+      "Director": "N/A",
+      "Writer": "Catherine Reitman",
+      "Actors": "Catherine Reitman, Dani Kind, Juno Rinaldi, Philip Sternberg",
+      "Plot": "Workin' Moms follows the lives of four women as they juggle love, careers, and parenthood. They support, challenge, and try not to judge each other as life throws them curveballs. Whether it is an identity crisis, a huge job opportunity, postpartum depression, or an unplanned pregnancy - they face both the good and bad with grace and humour. Kate is the flawed and fearless heart and soul of the series, who has stark home/life decisions to make. She relies on her closest friend Anne, a no-nonsense psychiatrist and mother of two, who is facing a massive family challenge. Charming and unpredictable Frankie livens any dark moment as she struggles with her own instability and relationship malaise. And sweet, former sorority girl Jenny seeks an uncharacteristically reckless awakening. Together the friends fearlessly confront the polarizing and unexpected realities of being working moms.",
+      "Language": "English",
+      "Country": "Canada",
+      "Awards": "4 wins & 25 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTkyMmQxYTUtOWQwYy00Yzc1LTljODgtMDViNzVhN2E1Y2FkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU2ODAxMjc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.6",
+      "imdbVotes": "10,282",
+      "imdbID": "tt6143796",
+      "Type": "series",
+      "totalSeasons": "5",
+      "Response": "True",
+      "dateAdded": "2021-03-02T16:49:59.297Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        }
+      ],
+      "id": 12
+    },
+    {
+      "Title": "LOL",
+      "Year": "2012",
+      "Rated": "PG-13",
+      "Released": "01 Mar 2012",
+      "Runtime": "97 min",
+      "Genre": "Comedy, Drama, Romance",
+      "Director": "Lisa Azuelos",
+      "Writer": "Lisa Azuelos (screenplay), Kamir Aïnouz (screenplay), Lisa Azuelos (film \"LOL [Laughing Out Loud]®\"), Nans Delgado (film \"LOL [Laughing Out Loud]®\")",
+      "Actors": "Jean-Luc Bilodeau, Douglas Booth, Vivian Le Borgne, Bridget Brown",
+      "Plot": "In a world connected by YouTube, iTunes, and Facebook, Lola and her friends navigate the peer pressures of high school romance and friendship while dodging their sometimes overbearing and confused parents. When Lola's mom, Anne, \"accidentally\" reads her teenage daughter's racy journal, she realizes just how wide their communication gap has grown. Through hilarious and heartfelt moments between mother and daughter, LOL is a fresh coming-of-age story for modern times.",
+      "Language": "English, French, Ukrainian",
+      "Country": "USA",
+      "Awards": "1 nomination.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTA0MjI5ODA3MjReQTJeQWpwZ15BbWU3MDI1NTE3Njc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "4.4/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "14%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "4.4",
+      "imdbVotes": "53,982",
+      "imdbID": "tt1592873",
+      "Type": "movie",
+      "DVD": "19 Dec 2015",
+      "BoxOffice": "N/A",
+      "Production": "Double Feature Films",
+      "Website": "N/A",
+      "Response": "True",
+      "dateAdded": "2021-03-02T16:51:47.403Z",
+      "rottenGas": [
+        {
+          "score": 500,
+          "user": null
+        }
+      ],
+      "id": 13
     }
   ]
 }

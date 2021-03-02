@@ -5,18 +5,7 @@ import axios from 'axios'
 import Table from 'antd/lib/table'
 import 'antd/lib/table/style/css'
 
-const Recommendations = ({ setClickedRecommendation }) => {
-  const [recommendations, setRecommendations] = useState('')
-
-  useEffect(() => {
-    async function fetchData() {
-      const results = await axios.get('http://localhost:3001/recommendations')
-      setRecommendations(results.data)
-    }
-    fetchData()
-  }, [])
-
-  console.log(recommendations);
+const Recommendations = ({ recommendations, setRecommendations, setClickedRecommendation }) => {
 
   const recommended = (e, record) => {
     e.preventDefault()

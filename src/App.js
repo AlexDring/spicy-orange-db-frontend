@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import recommendationsService from './services/recommendations'
 
 import SearchResults from './components/SearchResults'
 import Recommendations from './components/Recommendations'
@@ -67,6 +68,11 @@ function App() {
   // const [selectedMedia, setSelectedMedia] = useState("")
   const [clickedRecommendation, setClickedRecommendation] = useState(null)
   const [ collapseMenu, setCollapseMenu ] = useState(false)
+  const [recommendations, setRecommendations] = useState()
+
+  useEffect(() => {
+    recommendationsService.getAll().then(response => setRecommendations(response.data))
+  }, [setRecommendations])
 
   useEffect(() => {
     async function fetchData() {
@@ -127,14 +133,19 @@ function App() {
           >
           <Switch>
             <Route path="/recommendations/:id">
-              <RecommendedMedia clickedRecommendation={clickedRecommendation} />
+              <RecommendedMedia recommendations={recommendations} setRecommendations={setRecommendations} />
             </Route>
             <Route path="/recommendations">
-              <Recommendations setClickedRecommendation={setClickedRecommendation} />
+              <Recommendations recommendations={recommendations} setRecommendations={setRecommendations} setClickedRecommendation={setClickedRecommendation} />
             </Route>
             <Route path="/add-recommendation">
               <SearchForm setSearch={setSearch} />
-              {results && <SearchResults results={results} />}
+              {results && 
+              <SearchResults 
+                results={results} 
+                setRecommendations={setRecommendations} 
+                recommendations={recommendations} 
+              />}
             </Route>
           </Switch>
           </Content>
