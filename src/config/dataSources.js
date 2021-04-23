@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import { Typography } from 'antd'
+const { Text } = Typography
 
 export const recommendationColumn = [
   {
@@ -12,7 +14,10 @@ export const recommendationColumn = [
     title: 'Title',
     dataIndex: 'Title',
     key: 'Title',
-    render: (title, record) => <Link to={`/recommendations/${record.id}`}>{title}</Link>
+    render: (title, record) => 
+    (<><Link to={`/recommendations/${record.id}`}>{title}</Link>
+    <br />
+    <Text type="secondary">{record.Year}, {record.Runtime}</Text></>)
   },
   {
     title: 'Director',
@@ -21,11 +26,6 @@ export const recommendationColumn = [
   {
     title: 'Genres',
     dataIndex: 'Genre'
-  },
-  {
-    title: 'Year',
-    dataIndex: 'Year',
-    key: 'Year',
   },
   {
     title: 'Type',
@@ -55,7 +55,7 @@ export const recommendationColumn = [
     sorter: (a, b) => new Date(a.dateAdded) - new Date(b.dateAdded),
     defaultSortOrder: "descend",
     render: dateAdded => new Date(dateAdded)
-    .toLocaleDateString('en-gb', { year:"2-digit",month:"2-digit", day:"2-digit",  hour: 'numeric', minute: 'numeric', hour12: false })
+    .toLocaleDateString('en-gb', { year:"2-digit",month:"2-digit", day:"2-digit" })
   }
 ];
 

@@ -33,7 +33,7 @@ function App() {
   const [ collapseMenu, setCollapseMenu ] = useState(false)
   const [recommendations, setRecommendations] = useState()
   const [user, setUser] = useState(null)
-
+  
   useEffect(() => {
     recommendationsService.getAll()
     .then(response => setRecommendations(response.data))
@@ -44,7 +44,7 @@ function App() {
   };
 
   useEffect(() => {
-    const loggedInUser = JSON.parse(window.localStorage.getItem("loggedInSPODbUser"))
+    const loggedInUser = JSON.parse(window.localStorage.getItem("loggedInSPODbUser"));
     if(loggedInUser) {
       setUser(loggedInUser)
       recommendationsService.setToken(loggedInUser.token)
@@ -106,6 +106,7 @@ function App() {
             <Route path="/recommendations/:id">
               <RecommendedMedia 
                 user={user}
+                setUser={setUser}
                 recommendations={recommendations} 
                 setRecommendations={setRecommendations} />
             </Route>

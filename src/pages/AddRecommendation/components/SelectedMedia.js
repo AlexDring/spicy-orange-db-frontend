@@ -24,7 +24,8 @@ const SelectedMedia = (props) => {
     const recommendedMediaObject = {
       ...clickedMediaInfo,
       dateAdded: new Date(),
-      rottenGas: []
+      rottenGas: [],
+      // user: user.id // ADD THIS
     }
     recommendationsService.create(recommendedMediaObject)
     .then(response => {
