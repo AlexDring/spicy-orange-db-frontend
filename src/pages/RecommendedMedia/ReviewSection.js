@@ -10,13 +10,14 @@ import certified from '../../assets/images/Certified.png'
 import fresh from '../../assets/images/fresh.png'
 import stinker from '../../assets/images/stinker.png'
 
-import { Col, Row, Tooltip, Modal, Slider, Input } from 'antd'
+import { Col, Row, Tooltip, Modal, Slider, Input, Button } from 'antd'
 import 'antd/lib/col/style/css'
 import 'antd/lib/row/style/css'
 import 'antd/lib/tooltip/style/css'
 import 'antd/lib/modal/style/css'
 import 'antd/lib/slider/style/css'
 import 'antd/lib/input/style/css'
+import 'antd/lib/button/style/css'
 
 const { TextArea } = Input
 
@@ -69,6 +70,12 @@ const ReviewSection = props => {
     const handleCancel = () => {
       setModalVisibility(false)
     }
+
+    const handleDeleteRating = () => {
+      recommendationsService.deleteRating(recommendedMedia.id, userRating._id)
+      // Setup Delete rating in react
+      setModalVisibility(false)
+    }
   
   const showModal = () => {
     setModalVisibility(true)
@@ -98,29 +105,32 @@ const ReviewSection = props => {
         {recommendedMedia.Type !== 'series' && 
         <Col span={8}>
           <Tooltip title="Joe reckons a film should lose an IMDB point for each decade since its release.">
-            
             <ExternalReviews
               source={'JoeImdb'}
               rating={(recommendedMedia.imdbRating - 
               (new Date().getFullYear() - recommendedMedia.Year)/10)
               .toFixed(2).concat('/10')} 
             />
-
           </Tooltip>
         </Col>}
       </Row>
-      {/* <RottenVote 
-        rottenScores={rottenScores} 
-        user={user}
-        userRating={userRating}
-        rotttenGas={rottenRatings}
-      /> */}
       <Modal
         title="How many Rotten Ga's"
         visible={modalVisibility}
-        onOk={handleOk}
+        // onOk={handleOk}
         // confirmLoading={confirmLoading}
-        onCancel={handleCancel} > 
+        onCancel={handleCancel}
+        footer={[ 
+        userRating && <Button type="link" onClick={handleDeleteRating}>
+          Delete rating
+        </Button>, 
+        <Button key="back" onClick={handleCancel}>
+          Return
+        </Button>,
+          <Button key="submit" type="primary" onClick={handleOk}>
+          Submit
+        </Button>
+        ]} > 
 
           {rottenScore && <img height={150} src={rottenIcons(rottenScore)} alt=""/>}
           {rottenScores(rottenScore)}

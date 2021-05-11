@@ -15,8 +15,6 @@ import 'antd/lib/page-header/style/css'
 import 'antd/lib/list/style/css'
 import 'antd/lib/comment/style/css'
 
-
-
 import ReviewSection from './ReviewSection'
 
 const { Title, Text } = Typography;
@@ -76,9 +74,14 @@ const RecommendedMedia = (props) => {
             src={rottenIcons(score)} 
             alt="" />}
           <Image style={{paddingBottom: 30}} src={recommendedMedia.Poster} />
+         
         </Col>
         <Col span={16}>
-          <AddToWatchlist user={user} mediaId={recommendedMedia.id} setUser={setUser} />
+          <AddToWatchlist 
+            user={user} 
+            mediaId={recommendedMedia.id} 
+            setUser={setUser} 
+            />
           <ReviewSection 
             user={user}
             recommendations={recommendations}

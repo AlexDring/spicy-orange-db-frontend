@@ -16,6 +16,7 @@ const create = newObject => {
   const config = {
     headers: { Authorization: token },
   }
+  console.log(config)
   return axios.post(baseUrl, newObject, config)
 }
 
@@ -28,9 +29,31 @@ const vote = (id, newObject) => {
   return request.then(response => response.data)
 }
 
-const voteUpdate = (id, voteID, newObject) => {
-  const request = axios.put(`${baseUrl}/${id}/rottengas/${voteID}`, newObject)
+const voteUpdate = (id, voteId, newObject) => {
+  const request = axios.put(`${baseUrl}/${id}/rottengas/${voteId}`, newObject)
   return request.then(response => response.data)
 }
 
-export default { getAll, create, update, vote, voteUpdate, setToken }
+const deleteRating = (id, voteId) => {
+  axios.delete(`${baseUrl}/${id}/rottengas/${voteId}`)
+}
+
+const markAsWatched = (id, newObject) => {
+  const config = {
+    headers: { Authorization: token },
+  }
+  const request = axios.post(`${baseUrl}/${id}/watched`, newObject, config)
+  return request.then(response => response.data)
+}
+
+const removeWatched = (id) => {
+  const config = {
+    headers: { Authorization: token },
+  }
+  console.log(config);
+  console.log(token)
+  const request = axios.delete(`${baseUrl}/${id}/remove-watched`, config)
+  return request.then(response => response.data)
+}
+
+export default { getAll, create, update, vote, voteUpdate, setToken, markAsWatched, removeWatched, deleteRating }

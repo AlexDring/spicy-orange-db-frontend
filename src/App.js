@@ -36,7 +36,8 @@ function App() {
   
   useEffect(() => {
     recommendationsService.getAll()
-    .then(response => setRecommendations(response.data))
+    .then(response => 
+      setRecommendations(response.data))
   }, [setRecommendations])
 
   const toggle = () => {
@@ -50,6 +51,8 @@ function App() {
       recommendationsService.setToken(loggedInUser.token)
     }
   }, [])
+
+  console.log(user)
 
   return (
     <Router>
@@ -101,25 +104,35 @@ function App() {
           >
           <Switch>
             <Route path="/login">
-              <Login user={user} setUser={setUser} />
+              <Login 
+                user={user} 
+                setUser={setUser} 
+              />
             </Route>
             <Route path="/recommendations/:id">
               <RecommendedMedia 
                 user={user}
                 setUser={setUser}
                 recommendations={recommendations} 
-                setRecommendations={setRecommendations} />
+                setRecommendations={setRecommendations} 
+              />
             </Route>
             <Route path="/recommendations">
-              <Recommendations recommendations={recommendations} />
+              <Recommendations 
+                recommendations={recommendations} 
+              />
             </Route>
             <Route path="/add-recommendation">
               <AddRecommendation 
                 setRecommendations={setRecommendations} 
-                recommendations={recommendations} />
+                recommendations={recommendations} 
+              />
             </Route>
             <Route path="/watchlist">
-              <WatchList recommendations={recommendations} />
+              <WatchList 
+                recommendations={recommendations} 
+                user={user} 
+              />
             </Route>
           </Switch>
           </Content>

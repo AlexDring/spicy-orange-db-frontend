@@ -15,8 +15,8 @@ const SelectedMedia = (props) => {
   let history = useHistory()
 
   // console.log(clickedMediaInfo);
-  // console.log(recommendations);
-  let alreadyAdded = recommendations.find(r => r.imdbID === clickedMediaInfo.imdbID)
+  console.log(recommendations);
+  let alreadyAdded = recommendations ? recommendations.find(r => r.imdbID === clickedMediaInfo.imdbID) : null
   // console.log('alreadyAdded', alreadyAdded);
 
   const addRecommendation = (e) => {
