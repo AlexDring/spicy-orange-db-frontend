@@ -35,7 +35,8 @@ const voteUpdate = (id, voteId, newObject) => {
 }
 
 const deleteRating = (id, voteId) => {
-  axios.delete(`${baseUrl}/${id}/rottengas/${voteId}`)
+  const request = axios.delete(`${baseUrl}/${id}/rottengas/${voteId}`)
+  return request.then(response => response.data)
 }
 
 const markAsWatched = (id, newObject) => {
@@ -50,10 +51,7 @@ const removeWatched = (id) => {
   const config = {
     headers: { Authorization: token },
   }
-  console.log(config);
-  console.log(token)
-  const request = axios.delete(`${baseUrl}/${id}/remove-watched`, config)
-  return request.then(response => response.data)
+ axios.delete(`${baseUrl}/${id}/remove-watched`, config)
 }
 
 export default { getAll, create, update, vote, voteUpdate, setToken, markAsWatched, removeWatched, deleteRating }

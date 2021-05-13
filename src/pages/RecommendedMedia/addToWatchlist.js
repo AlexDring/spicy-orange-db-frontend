@@ -14,7 +14,6 @@ const AddToWatchlist = (props) => {
   useEffect(() => {
   usersRouter.getUser(user.id)
     .then(response => {
-      console.log('response', response);
       setUserData(response)
     })
   }, [setUserData])
@@ -23,8 +22,6 @@ const AddToWatchlist = (props) => {
   if(userData) {
     inWatchlist = userData.watchlist.find(r => r.toWatch === mediaId)
   }
-  console.log('userData', userData);
-  console.log('inWatchlist', inWatchlist)
   
   const toggleWatchlist =  async () => {
     if(!inWatchlist) {
@@ -48,7 +45,7 @@ const AddToWatchlist = (props) => {
         userId: userData.id,
         addToWatched: mediaId
       }
-      console.log(watchedObject);
+
       const response = await recommendationsRouter.markAsWatched(mediaId, watchedObject)
       setUserData(response)
     } else {
@@ -56,7 +53,7 @@ const AddToWatchlist = (props) => {
         ...userData,
         watched: userData.watched.filter(w => w !== mediaId)
       }
-      console.log(removeWatched);
+
       setUserData(removeWatched)
       await recommendationsRouter.removeWatched(mediaId)
     }

@@ -27,8 +27,9 @@ const ReviewSection = props => {
   const [rottenScore, setRottenScore] = useState()
   const [rottenReview, setRottenReview] = useState()
 
+  console.log('recommendedMedia', recommendedMedia);
   let userRating = rottenRatings.find(r => r.user === user.username)
-  // console.log(userRating)
+  console.log(userRating)
 
   const rottenScores = (rottenScore) => {
     return(
@@ -71,9 +72,17 @@ const ReviewSection = props => {
       setModalVisibility(false)
     }
 
-    const handleDeleteRating = () => {
-      recommendationsService.deleteRating(recommendedMedia.id, userRating._id)
-      // Setup Delete rating in react
+    const handleDeleteRating = async () => {
+      await recommendationsService.deleteRating(recommendedMedia.id, userRating._id)
+      setRecommendations(recommendations.map(r => {
+        if (r.id !== recommendedMedia.id ) {
+          return r
+        }
+        const newRottenGas = r.rottenGas.filter(v => v._id !== userRating._id)
+        r.rottenGas = newRottenGas
+        return r
+      }))
+      
       setModalVisibility(false)
     }
   

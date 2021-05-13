@@ -52,8 +52,6 @@ function App() {
     }
   }, [])
 
-  console.log(user)
-
   return (
     <Router>
       <Layout>
@@ -130,7 +128,6 @@ function App() {
             </Route>
             <Route path="/watchlist">
               <WatchList 
-                recommendations={recommendations} 
                 user={user} 
               />
             </Route>

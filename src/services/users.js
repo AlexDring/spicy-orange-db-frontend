@@ -18,7 +18,10 @@ const addToWatchlist = (id, newObject) => {
 
 const removeFromWatchlist = (id, watchlistId) => {
   const request = axios.delete(`${baseUrl}/${id}/watchlist/${watchlistId}`)
-  return request.then(response => response.data)
+  return request.then(response => {
+    console.log(response.data)
+    return response.data
+  })
 }
 
 const markAsWatched = (id, watchlistId) => {
